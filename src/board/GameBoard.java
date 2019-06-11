@@ -1,6 +1,5 @@
 package board;
 
-//import cardsDeck.Card;
 import cardsDeck.Deck;
 
 public class GameBoard {
@@ -14,6 +13,10 @@ public class GameBoard {
 		AllCards.initWagonDeck();
 		AllCards.initAllDest();
 		
+	}
+	
+	public Deck getDeck(){
+		return this.AllCards;
 	}
 
 }

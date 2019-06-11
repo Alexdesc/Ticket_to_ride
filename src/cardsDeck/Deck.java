@@ -105,7 +105,24 @@ public class Deck{
 		
 		Collections.shuffle(dest);
 		//System.out.println(dest.size());
-		
+	}
+	
+	public Card pickCard(ArrayList<Card> cardToPick){
+		Card theCard = cardToPick.get(0);
+		cardToPick.remove(0);
+		return theCard;
+	}
+	
+	public ArrayList<Card> getDeckTrain(){
+		return this.train;
+	}
+	
+	public ArrayList<Card> getDeckPrimaryDest(){
+		return this.BigDest;
+	}
+	
+	public ArrayList<Card> getDeckDest(){
+		return this.dest;
 	}
 	
 

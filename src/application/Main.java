@@ -9,7 +9,7 @@ import board.GameBoard;
 public class Main extends Application {
 	
 	public static void main(String[] args) {
-		GameBoard g = new GameBoard();
+		Game g = new Game(3);
 	}
 
 	@Override
