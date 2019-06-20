@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<BorderPane prefHeight="636.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <center>
+      <Pane prefHeight="636.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="635.0" fitWidth="845.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Board.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </ImageView>
+            <Group />
+            <Button fx:id="ldnEdb3" layoutX="123.0" layoutY="91.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="amsEssn2" layoutX="269.0" layoutY="148.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="16.7" text="Button" />
+            <Button fx:id="amsEssen1" layoutX="246.0" layoutY="157.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="99.5" text="Button" />
+            <Button fx:id="Brxams" layoutX="235.0" layoutY="204.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-70.0" text="Button" />
+            <Button fx:id="ldnedb3b" layoutX="134.0" layoutY="86.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnams2" layoutX="219.0" layoutY="178.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="2.0" text="Button" />
+            <Button fx:id="ldnams1" layoutX="187.0" layoutY="178.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="2.0" text="Button" />
+            <Button fx:id="dppldn2" layoutX="152.0" layoutY="203.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.5" text="Button" />
+            <Button fx:id="dppbrx1" layoutX="176.0" layoutY="256.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-36.9" text="Button" />
+            <Button fx:id="dppbrx2" layoutX="205.0" layoutY="232.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-40.6" text="Button" />
+            <Button fx:id="dppldn1b" layoutX="161.0" layoutY="241.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.5" text="Button" />
+            <Button fx:id="dppldn2b" layoutX="164.0" layoutY="206.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.5" text="Button" />
+            <Button fx:id="dppldn1" layoutX="147.0" layoutY="239.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.5" text="Button" />
+            <Button fx:id="dppbrst1" layoutX="126.0" layoutY="265.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="176.8" text="Button" />
+            <Button fx:id="ldnedb2b" layoutX="146.0" layoutY="117.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnedb1b" layoutX="158.0" layoutY="151.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnedb4b" layoutX="122.0" layoutY="53.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnedb1" layoutX="146.0" layoutY="155.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnedb2" layoutX="135.0" layoutY="124.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Button fx:id="ldnedb4" layoutX="111.0" layoutY="58.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.0" text="Button" />
+            <Circle fx:id="london" fill="#a8a8a8" layoutX="178.0" layoutY="182.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="dppbrst2" layoutX="97.0" layoutY="274.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-32.0" text="Button" />
+            <Button fx:id="amsessen3" layoutX="299.0" layoutY="171.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="53.1" text="Button" />
+            <Button fx:id="amstfrkf1" layoutX="262.0" layoutY="203.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="49.4" text="Button" />
+            <Button fx:id="amsfrkf2" layoutX="285.0" layoutY="231.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="48.4" text="Button" />
+            <Button fx:id="brxfrkf1" layoutX="245.0" layoutY="231.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-14.0" text="Button" />
+            <Button fx:id="brxfrkf2" layoutX="276.0" layoutY="239.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="48.0" text="Button" />
+            <Button fx:id="parbrx2b" layoutX="221.0" layoutY="257.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-67.4" text="Button" />
+            <Button fx:id="parbrx1b" layoutX="210.0" layoutY="290.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-65.6" text="Button" />
+            <Button fx:id="parbrx1" layoutX="199.0" layoutY="282.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-66.0" text="Button" />
+            <Button fx:id="parbrx2" layoutX="211.0" layoutY="253.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-66.0" text="Button" />
+            <Button fx:id="pardpp" layoutX="175.0" layoutY="285.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="48.4" text="Button" />
+            <Button fx:id="parbrst1" layoutX="163.0" layoutY="307.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="6.0" text="Button" />
+            <Button fx:id="parbrst2" layoutX="133.0" layoutY="301.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="8.7" text="Button" />
+            <Button fx:id="parbrst3" layoutX="101.0" layoutY="298.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="9.5" text="Button" />
+            <Button fx:id="parfrkf1" layoutX="221.0" layoutY="305.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-20.0" text="Button" />
+            <Button fx:id="parfrkf2" layoutX="253.0" layoutY="290.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-36.0" text="Button" />
+            <Button fx:id="parfrkf3" layoutX="278.0" layoutY="270.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-37.6" text="Button" />
+            <Button fx:id="essenkbhv1b" layoutX="331.0" layoutY="167.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-61.4" text="Button" />
+            <Button fx:id="essenkbhv1" layoutX="320.0" layoutY="164.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-59.7" text="Button" />
+            <Button fx:id="essenkbhv2b" layoutX="348.0" layoutY="138.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-59.9" text="Button" />
+            <Button fx:id="essenkbhv2" layoutX="336.0" layoutY="131.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-59.0" text="Button" />
+            <Button fx:id="essenkbhv3" layoutX="354.0" layoutY="103.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-59.0" text="Button" />
+            <Button fx:id="essenkbhv3b" layoutX="362.0" layoutY="109.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-58.0" text="Button" />
+            <Button fx:id="kbhvstklm1" layoutX="386.0" layoutY="62.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-50.7" text="Button" />
+            <Button fx:id="kbhvstklm1b" layoutX="394.0" layoutY="72.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-50.0" text="Button" />
+            <Button fx:id="kbhvstklm2b" layoutX="417.0" layoutY="48.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="kbhvstklm3b" layoutX="442.0" layoutY="28.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-29.4" text="Button" />
+            <Button fx:id="kbhvstklm2" layoutX="407.0" layoutY="36.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="kbhvstklm3" layoutX="435.0" layoutY="16.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-29.1" text="Button" />
+            <Button fx:id="stklmpetr1" layoutX="477.0" layoutY="27.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="54.5" text="Button" />
+            <Button fx:id="stklmpetr2" layoutX="498.0" layoutY="21.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-41.2" text="Button" />
+            <Button fx:id="stklmpetr3" layoutX="530.0" layoutY="12.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="stklmpetr4" layoutX="562.0" layoutY="12.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="stklmpetr5" layoutX="595.0" layoutY="11.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="stklmpetr6" layoutX="624.0" layoutY="11.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="stklmpetr7" layoutX="658.0" layoutY="11.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="stklmpetr8" layoutX="686.0" layoutY="17.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="26.6" text="Button" />
+            <Button fx:id="rgapetr4" layoutX="684.0" layoutY="39.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="rgapetr3" layoutX="649.0" layoutY="40.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="rgapetr2" layoutX="619.0" layoutY="40.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="rgapetr1" layoutX="589.0" layoutY="40.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="wilpetr4" layoutX="695.0" layoutY="58.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-57.3" text="Button" />
+            <Button fx:id="wilpetr3" layoutX="679.0" layoutY="89.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-58.6" text="Button" />
+            <Button fx:id="wilpetr2" layoutX="661.0" layoutY="119.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-57.0" text="Button" />
+            <Button fx:id="wilpetr1" layoutX="642.0" layoutY="148.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-58.4" text="Button" />
+            <Button fx:id="mskpet4" layoutX="729.0" layoutY="41.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="21.8" text="Button" />
+            <Button fx:id="mskpetr3" layoutX="759.0" layoutY="62.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="42.3" text="Button" />
+            <Button fx:id="mskpetr2" layoutX="780.0" layoutY="90.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="67.4" text="Button" />
+            <Button fx:id="mskpetr1" layoutX="787.0" layoutY="126.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="85.6" text="Button" />
+            <Button fx:id="smlmsk1" layoutX="740.0" layoutY="178.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="5.7" text="Button" />
+            <Button fx:id="smlmsk2" layoutX="773.0" layoutY="168.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-41.2" text="Button" />
+            <Button fx:id="kharmsk4" layoutX="802.0" layoutY="178.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="65.0" text="Button" />
+            <Button fx:id="kharmsk3" layoutX="812.0" layoutY="211.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="79.7" text="Button" />
+            <Button fx:id="kharmsk2" layoutX="808.0" layoutY="248.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="103.0" text="Button" />
+            <Button fx:id="kharmsk1" layoutX="791.0" layoutY="282.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="130.9" text="Button" />
+            <Button fx:id="rstvkhar1" layoutX="804.0" layoutY="302.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="rstvkhar2" layoutX="813.0" layoutY="328.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="88.3" text="Button" />
+            <Button fx:id="kharkyv1" layoutX="756.0" layoutY="308.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-20.0" text="Button" />
+            <Button fx:id="kharkyv2" layoutX="725.0" layoutY="314.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="1.8" text="Button" />
+            <Button fx:id="kharkyv3" layoutX="694.0" layoutY="302.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="34.7" text="Button" />
+            <Button fx:id="kharkyv4" layoutX="670.0" layoutY="274.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="74.7" text="Button" />
+            <Button fx:id="kyvsml1" layoutX="686.0" layoutY="249.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="5.2" text="Button" />
+            <Button fx:id="kyvsml2" layoutX="716.0" layoutY="237.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-48.4" text="Button" />
+            <Button fx:id="kyvsml3" layoutX="724.0" layoutY="203.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="78.7" text="Button" />
+            <Button fx:id="wilnsml3" layoutX="695.0" layoutY="163.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="38.7" text="Button" />
+            <Button fx:id="wilnsml2" layoutX="674.0" layoutY="143.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="38.7" text="Button" />
+            <Button fx:id="wilnsml1" layoutX="650.0" layoutY="153.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-57.0" text="Button" />
+            <Button fx:id="kyvwiln2" layoutX="649.0" layoutY="186.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="38.0" text="Button" />
+            <Button fx:id="kyvwiln1" layoutX="665.0" layoutY="222.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="92.7" text="Button" />
+            <Button fx:id="kyvwars1" layoutX="640.0" layoutY="240.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="5.2" text="Button" />
+            <Button fx:id="kyvwars2" layoutX="607.0" layoutY="239.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-3.0" text="Button" />
+            <Button fx:id="kyvwars3" layoutX="578.0" layoutY="234.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="24.0" text="Button" />
+            <Button fx:id="kyvwars4" layoutX="552.0" layoutY="216.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="52.1" text="Button" />
+            <Button fx:id="warswiln3" layoutX="608.0" layoutY="161.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="36.9" text="Button" />
+            <Button fx:id="rgawiln4" layoutX="614.0" layoutY="148.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="37.9" text="Button" />
+            <Button fx:id="rgawiln3" layoutX="590.0" layoutY="131.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="36.0" text="Button" />
+            <Button fx:id="rgawiln2" layoutX="566.0" layoutY="103.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="68.2" text="Button" />
+            <Button fx:id="rgawiln1" layoutX="562.0" layoutY="66.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="100.3" text="Button" />
+            <Button fx:id="dnzgrga3" layoutX="539.0" layoutY="47.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-21.8" text="Button" />
+            <Button fx:id="dnzgrga2" layoutX="515.0" layoutY="68.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-55.5" text="Button" />
+            <Button fx:id="dnzgrga1" layoutX="502.0" layoutY="100.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="105.3" text="Button" />
+            <Button fx:id="warswiln2" layoutX="577.0" layoutY="153.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-15.3" text="Button" />
+            <Button fx:id="warswiln1" layoutX="551.0" layoutY="177.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-65.0" text="Button" />
+            <Button fx:id="dnzgwars1" layoutX="513.0" layoutY="139.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="33.7" text="Button" />
+            <Button fx:id="dnzgwars2" layoutX="533.0" layoutY="171.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="79.7" text="Button" />
+            <Button fx:id="brlndnzg4" layoutX="476.0" layoutY="118.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="14.9" text="Button" />
+            <Button fx:id="brlndnzg3" layoutX="441.0" layoutY="119.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-12.5" text="Button" />
+            <Button fx:id="brlndnzg2" layoutX="413.0" layoutY="140.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-56.3" text="Button" />
+            <Button fx:id="brlndnzg1" layoutX="402.0" layoutY="173.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-82.1" text="Button" />
+            <Button fx:id="brlnwars4" layoutX="512.0" layoutY="186.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="10.3" text="Button" />
+            <Button fx:id="brlnwars3" layoutX="481.0" layoutY="183.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="brlnwars2" layoutX="449.0" layoutY="186.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-6.3" text="Button" />
+            <Button fx:id="brlnwars1" layoutX="416.0" layoutY="195.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-22.6" text="Button" />
+            <Button fx:id="brlnwars4b" layoutX="512.0" layoutY="200.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="9.5" text="Button" />
+            <Button fx:id="brlnwars3b" layoutX="481.0" layoutY="198.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="brlnwars2b" layoutX="452.0" layoutY="200.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-5.2" text="Button" />
+            <Button fx:id="brlnwars1b" layoutX="421.0" layoutY="207.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-20.6" text="Button" />
+            <Button fx:id="essenbrln2" layoutX="375.0" layoutY="193.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="7.3" text="Button" />
+            <Button fx:id="essenbrln1" layoutX="342.0" layoutY="187.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="8.4" text="Button" />
+            <Button fx:id="frkfessen2" layoutX="331.0" layoutY="213.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="68.7" text="Button" />
+            <Button fx:id="frkfessen1" layoutX="314.0" layoutY="236.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-29.7" text="Button" />
+            <Button fx:id="frkfbrln1" layoutX="318.0" layoutY="246.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-30.0" text="Button" />
+            <Button fx:id="frkfbrln2" layoutX="347.0" layoutY="232.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-30.3" text="Button" />
+            <Button fx:id="frkfbrln3" layoutX="376.0" layoutY="216.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-26.6" text="Button" />
+            <Button fx:id="frkfbrln1b" layoutX="326.0" layoutY="258.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-31.0" text="Button" />
+            <Button fx:id="frkfbrln2b" layoutX="355.0" layoutY="241.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-29.4" text="Button" />
+            <Button fx:id="frkfbrln3b" layoutX="381.0" layoutY="228.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-29.1" text="Button" />
+            <Button fx:id="wienbrln3" layoutX="403.0" layoutY="232.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="76.8" text="Button" />
+            <Button fx:id="wienbrln2" layoutX="417.0" layoutY="268.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="66.0" text="Button" />
+            <Button fx:id="wienbrln1" layoutX="434.0" layoutY="297.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="55.7" text="Button" />
+            <Button fx:id="wienwars4" layoutX="528.0" layoutY="222.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-61.2" text="Button" />
+            <Button fx:id="wienwars3" layoutX="510.0" layoutY="255.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-58.4" text="Button" />
+            <Button fx:id="wienwars2" layoutX="490.0" layoutY="281.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="wienwars1" layoutX="464.0" layoutY="302.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-36.0" text="Button" />
+            <Button fx:id="sbstplrstv4" layoutX="790.0" layoutY="347.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="10.0" text="Button" />
+            <Button fx:id="sbstplrstv3" layoutX="757.0" layoutY="340.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="9.5" text="Button" />
+            <Button fx:id="sochrstv2" layoutX="812.0" layoutY="381.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.4" text="Button" />
+            <Button fx:id="sochrstv1" layoutX="809.0" layoutY="416.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="93.9" text="Button" />
+            <Button fx:id="sbstplsoch2" layoutX="785.0" layoutY="436.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="12.5" text="Button" />
+            <Button fx:id="sbstplsoch1" layoutX="754.0" layoutY="430.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="13.0" text="Button" />
+            <Button fx:id="sbstplrstv2" layoutX="746.0" layoutY="366.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="95.2" text="Button" />
+            <Button fx:id="sbstplrstv1" layoutX="741.0" layoutY="403.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="97.1" text="Button" />
+            <Button fx:id="sbstplbuca4" layoutX="717.0" layoutY="404.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="54.0" text="Button" />
+            <Button fx:id="bucrstsbstpl3" layoutX="693.0" layoutY="380.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="28.3" text="Button" />
+            <Button fx:id="bucrstsbstpl2" layoutX="658.0" layoutY="377.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-16.7" text="Button" />
+            <Button fx:id="bucrstsbstpl1" layoutX="632.0" layoutY="395.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-47.7" text="Button" />
+            <Button fx:id="bucrstkyv4" layoutX="647.0" layoutY="282.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="106.7" text="Button" />
+            <Button fx:id="bucrstkyv3" layoutX="638.0" layoutY="316.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="106.7" text="Button" />
+            <Button fx:id="bucrstkyv2" layoutX="628.0" layoutY="349.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-73.4" text="Button" />
+            <Button fx:id="bucrstkyv1" layoutX="619.0" layoutY="384.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="107.2" text="Button" />
+            <Button fx:id="budpstkyv6" layoutX="639.0" layoutY="254.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="3.4" text="Button" />
+            <Button fx:id="budpstkyv5" layoutX="608.0" layoutY="254.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-5.7" text="Button" />
+            <Button fx:id="budpstkyv4" layoutX="579.0" layoutY="262.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-24.4" text="Button" />
+            <Button fx:id="budpstkyv3" layoutX="548.0" layoutY="276.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-28.3" text="Button" />
+            <Button fx:id="budpstkyv2" layoutX="523.0" layoutY="295.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-40.0" text="Button" />
+            <Button fx:id="budpstkyv1" layoutX="498.0" layoutY="319.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-51.8" text="Button" />
+            <Button fx:id="pmplnbrst4" layoutX="99.0" layoutY="315.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="24.4" text="Button" />
+            <Button fx:id="pmplnbrst3" layoutX="123.0" layoutY="339.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="60.3" text="Button" />
+            <Button fx:id="pmplnbrst2" layoutX="134.0" layoutY="371.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="82.7" text="Button" />
+            <Button fx:id="pmplnbrst1" layoutX="135.0" layoutY="411.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="90.6" text="Button" />
+            <Button fx:id="pmplnpar4" layoutX="176.0" layoutY="332.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="96.7" text="Button" />
+            <Button fx:id="pmplnpar3" layoutX="170.0" layoutY="368.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="105.5" text="Button" />
+            <Button fx:id="parfrkf1b" layoutX="226.0" layoutY="315.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-16.7" text="Button" />
+            <Button fx:id="parfrkf2b" layoutX="259.0" layoutY="301.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-35.2" text="Button" />
+            <Button fx:id="parfrkf3" layoutX="284.0" layoutY="281.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-40.4" text="Button" />
+            <Button fx:id="pmplnpar4b" layoutX="188.0" layoutY="338.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="95.7" text="Button" />
+            <Button fx:id="pmplnpar3b" layoutX="182.0" layoutY="375.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="103.1" text="Button" />
+            <Button fx:id="pmplnpar2" layoutX="159.0" layoutY="405.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="110.8" text="Button" />
+            <Button fx:id="pmplnpar2b" layoutX="170.0" layoutY="409.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="108.9" text="Button" />
+            <Button fx:id="pmplnpar1" layoutX="143.0" layoutY="437.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="121.6" text="Button" />
+            <Button fx:id="pmplnpar1b" layoutX="153.0" layoutY="442.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-59.0" text="Button" />
+            <Button fx:id="pmplnmars1" layoutX="167.0" layoutY="472.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="24.9" text="Button" />
+            <Button fx:id="barcpmpln2" layoutX="143.0" layoutY="491.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="86.3" text="Button" />
+            <Button fx:id="barcpmpln1" layoutX="148.0" layoutY="529.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="86.2" text="Button" />
+            <Button fx:id="mdrdbarc2" layoutX="123.0" layoutY="551.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="3.5" text="Button" />
+            <Button fx:id="mdrdbarc1" layoutX="93.0" layoutY="548.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="4.1" text="Button" />
+            <Button fx:id="mdrdpmpln3b" layoutX="124.0" layoutY="477.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="142.8" text="Button" />
+            <Button fx:id="mdrdpmpln2b" layoutX="98.0" layoutY="501.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="130.4" text="Button" />
+            <Button fx:id="mdrdpmpln1b" layoutX="76.0" layoutY="529.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="123.1" text="Button" />
+            <Button fx:id="mdrdpmpln3" layoutX="115.0" layoutY="467.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="145.4" text="Button" />
+            <Button fx:id="mdrdpmpln2" layoutX="89.0" layoutY="491.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-51.8" text="Button" />
+            <Button fx:id="mdrdpmpln1" layoutX="68.0" layoutY="517.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-54.0" text="Button" />
+            <Button fx:id="cdzmdrd3" layoutX="75.0" layoutY="560.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="50.7" text="Button" />
+            <Button fx:id="cdzmdrd2" layoutX="94.0" layoutY="590.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="70.6" text="Button" />
+            <Button fx:id="cdzmdrd1" layoutX="79.0" layoutY="608.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="156.0" text="Button" />
+            <Button fx:id="cdzlisb1" layoutX="34.0" layoutY="612.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="13.3" text="Button" />
+            <Button fx:id="cdzlisb2" layoutX="10.0" layoutY="588.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="69.0" text="Button" />
+            <Button fx:id="lisbmdrd3" layoutX="40.0" layoutY="525.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="39.1" text="Button" />
+            <Button fx:id="lisbmdrd2" layoutX="8.0" layoutY="515.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="lisbmdrd1" layoutX="-2.0" layoutY="541.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="90.0" text="Button" />
+            <Button fx:id="zricpar3" layoutX="216.0" layoutY="338.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="60.4" text="Button" />
+            <Button fx:id="marspar4" layoutX="201.0" layoutY="348.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="85.9" text="Button" />
+            <Button fx:id="zricpar2" layoutX="239.0" layoutY="365.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="26.6" text="Button" />
+            <Button fx:id="zricpar1" layoutX="272.0" layoutY="371.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="marspar3" layoutX="210.0" layoutY="385.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="58.0" text="Button" />
+            <Button fx:id="marspar2" layoutX="233.0" layoutY="407.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="29.1" text="Button" />
+            <Button fx:id="marspar1" layoutX="260.0" layoutY="433.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="57.5" text="Button" />
+            <Button fx:id="marspmpln1" layoutX="240.0" layoutY="443.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="29.9" text="Button" />
+            <Button fx:id="marspmpln2" layoutX="209.0" layoutY="434.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="marspmpln3" layoutX="182.0" layoutY="452.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="107.2" text="Button" />
+            <Button fx:id="barcmars1" layoutX="167.0" layoutY="530.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-53.1" text="Button" />
+            <Button fx:id="barcmars2" layoutX="191.0" layoutY="506.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="barcmars3" layoutX="215.0" layoutY="484.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-33.7" text="Button" />
+            <Button fx:id="barcmars4" layoutX="246.0" layoutY="466.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-22.6" text="Button" />
+            <Button fx:id="frkfmnchn1" layoutX="309.0" layoutY="285.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="76.4" text="Button" />
+            <Button fx:id="frkfmnchn2" layoutX="321.0" layoutY="305.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-17.0" text="Button" />
+            <Button fx:id="mnchnwien2" layoutX="391.0" layoutY="340.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="3.6" text="Button" />
+            <Button fx:id="mnchnwien1" layoutX="365.0" layoutY="323.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="56.3" text="Button" />
+            <Button fx:id="mnchnwien3" layoutX="425.0" layoutY="328.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="zricmnchn2" layoutX="332.0" layoutY="322.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="zricmnchn1" layoutX="309.0" layoutY="347.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="135.0" text="Button" />
+            <Button fx:id="zricvnzia1" layoutX="314.0" layoutY="378.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="30.4" text="Button" />
+            <Button fx:id="zricvnzia2" layoutX="341.0" layoutY="394.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="33.7" text="Button" />
+            <Button fx:id="vnziamnchn2" layoutX="351.0" layoutY="336.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="80.5" text="Button" />
+            <Button fx:id="vnziamnchn1" layoutX="358.0" layoutY="373.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="81.5" text="Button" />
+            <Button fx:id="marszric2" layoutX="290.0" layoutY="392.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="102.8" text="Button" />
+            <Button fx:id="marszric1" layoutX="279.0" layoutY="428.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-77.6" text="Button" />
+            <Button fx:id="marsrom1" layoutX="293.0" layoutY="445.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="139.0" text="Button" />
+            <Button fx:id="marsrom2" layoutX="318.0" layoutY="423.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-41.2" text="Button" />
+            <Button fx:id="marsrom3" layoutX="338.0" layoutY="437.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="57.3" text="Button" />
+            <Button fx:id="marsrom4" layoutX="355.0" layoutY="467.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="56.3" text="Button" />
+            <Button fx:id="budawien1" layoutX="467.0" layoutY="330.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="34.7" text="Button" />
+            <Button fx:id="budawien1b" layoutX="462.0" layoutY="341.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="35.0" text="Button" />
+            <Button fx:id="zagrbwien2" layoutX="439.0" layoutY="344.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.1" text="Button" />
+            <Button fx:id="zagrbwien1" layoutX="437.0" layoutY="379.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="93.0" text="Button" />
+            <Button fx:id="zagrbvnzia2" layoutX="382.0" layoutY="388.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-12.5" text="Button" />
+            <Button fx:id="zagrbvnzia1" layoutX="414.0" layoutY="396.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="37.1" text="Button" />
+            <Button fx:id="zgrbbuda2" layoutX="477.0" layoutY="367.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="119.7" text="Button" />
+            <Button fx:id="zgrbbuda1" layoutX="453.0" layoutY="394.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-45.0" text="Button" />
+            <Button fx:id="sarazgrb3" layoutX="437.0" layoutY="436.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="84.6" text="Button" />
+            <Button fx:id="romvnzia2" layoutX="368.0" layoutY="424.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="80.2" text="Button" />
+            <Button fx:id="romvnzia1" layoutX="372.0" layoutY="458.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="80.5" text="Button" />
+            <Button fx:id="rombrin1" layoutX="397.0" layoutY="477.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-6.3" text="Button" />
+            <Button fx:id="rombrin2" layoutX="426.0" layoutY="491.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="51.8" text="Button" />
+            <Button fx:id="sarazgrb1" layoutX="485.0" layoutY="472.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-21.8" text="Button" />
+            <Button fx:id="sarazgrb2" layoutX="452.0" layoutY="467.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="40.6" text="Button" />
+            <Button fx:id="sarabuda3" layoutX="493.0" layoutY="370.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="85.0" text="Button" />
+            <Button fx:id="sarabuda2" layoutX="499.0" layoutY="407.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="81.9" text="Button" />
+            <Button fx:id="sarabuda1" layoutX="503.0" layoutY="441.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="83.3" text="Button" />
+            <Button fx:id="bucrstbuda4" layoutX="507.0" layoutY="351.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="31.3" text="Button" />
+            <Button fx:id="bucrstbuda3" layoutX="537.0" layoutY="368.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="31.6" text="Button" />
+            <Button fx:id="bucrstbuda2" layoutX="567.0" layoutY="386.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="32.0" text="Button" />
+            <Button fx:id="bucrstbuda1" layoutX="593.0" layoutY="404.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="32.5" text="Button" />
+            <Button fx:id="sofsara2" layoutX="528.0" layoutY="453.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-26.6" text="Button" />
+            <Button fx:id="sofsara2" layoutX="551.0" layoutY="454.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="68.2" text="Button" />
+            <Button fx:id="sofbcrst1" layoutX="586.0" layoutY="464.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-17.1" text="Button" />
+            <Button fx:id="sofbcrst2" layoutX="605.0" layoutY="435.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="95.0" text="Button" />
+            <Button fx:id="palerrom4" layoutX="390.0" layoutY="499.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="31.6" text="Button" />
+            <Button fx:id="palerrom3" layoutX="413.0" layoutY="523.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="56.3" text="Button" />
+            <Button fx:id="palerrom2" layoutX="424.0" layoutY="557.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="92.0" text="Button" />
+            <Button fx:id="palerrom1" layoutX="412.0" layoutY="593.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="123.2" text="Button" />
+            <Button fx:id="palerbrin3" layoutX="449.0" layoutY="537.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="68.6" text="Button" />
+            <Button fx:id="palerbrin2" layoutX="443.0" layoutY="572.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-50.9" text="Button" />
+            <Button fx:id="palerbrin1" layoutX="421.0" layoutY="601.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-56.8" text="Button" />
+            <Button fx:id="smyrpaler6" layoutX="441.0" layoutY="612.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrpaler5" layoutX="471.0" layoutY="613.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrpaler4" layoutX="505.0" layoutY="614.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrpaler3" layoutX="535.0" layoutY="615.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrpaler2" layoutX="568.0" layoutY="614.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrpaler1" layoutX="599.0" layoutY="616.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrathn2" layoutX="569.0" layoutY="588.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="smyrathn1" layoutX="600.0" layoutY="594.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="27.2" text="Button" />
+            <Button fx:id="athnsara1" layoutX="523.0" layoutY="578.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="3.5" text="Button" />
+            <Button fx:id="athnbrin4" layoutX="460.0" layoutY="533.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="67.4" text="Button" />
+            <Button fx:id="athnbrin3" layoutX="470.0" layoutY="566.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="69.4" text="Button" />
+            <Button fx:id="athnbrin2" layoutX="493.0" layoutY="591.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="20.0" text="Button" />
+            <Button fx:id="athnbrin1" layoutX="527.0" layoutY="593.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-7.6" text="Button" />
+            <Button fx:id="athnsara2" layoutX="502.0" layoutY="565.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="93.3" text="Button" />
+            <Button fx:id="athnsara3" layoutX="505.0" layoutY="530.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="93.2" text="Button" />
+            <Button fx:id="athnsara4" layoutX="507.0" layoutY="490.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="92.9" text="Button" />
+            <Button fx:id="athnsof3" layoutX="549.0" layoutY="494.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="129.0" text="Button" />
+            <Button fx:id="athnsof2" layoutX="534.0" layoutY="528.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="94.1" text="Button" />
+            <Button fx:id="athnsof1" layoutX="541.0" layoutY="562.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="65.0" text="Button" />
+            <Button fx:id="angsmyr3" layoutX="643.0" layoutY="617.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" text="Button" />
+            <Button fx:id="angsmyr2" layoutX="675.0" layoutY="615.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-6.9" text="Button" />
+            <Button fx:id="angsmyr1" layoutX="704.0" layoutY="605.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-32.9" text="Button" />
+            <Button fx:id="cnstsof3" layoutX="584.0" layoutY="491.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="30.3" text="Button" />
+            <Button fx:id="cnstsof2" layoutX="609.0" layoutY="507.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="34.3" text="Button" />
+            <Button fx:id="cnstsof1" layoutX="636.0" layoutY="523.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="30.3" text="Button" />
+            <Button fx:id="smyrcnst2" layoutX="643.0" layoutY="559.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="114.0" text="Button" />
+            <Button fx:id="smyrcnst1" layoutX="629.0" layoutY="590.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="114.4" text="Button" />
+            <Button fx:id="angorconst2" layoutX="678.0" layoutY="550.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="41.2" text="Button" />
+            <Button fx:id="angorconst1" layoutX="706.0" layoutY="573.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="39.3" text="Button" />
+            <Button fx:id="cnstbuca3" layoutX="624.0" layoutY="438.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="68.2" text="Button" />
+            <Button fx:id="cnstbuca2" layoutX="637.0" layoutY="473.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="71.9" text="Button" />
+            <Button fx:id="cnstsbstpl4" layoutX="724.0" layoutY="455.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="90.0" text="Button" />
+            <Button fx:id="cnstbuca1" layoutX="649.0" layoutY="505.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="71.6" text="Button" />
+            <Button fx:id="cnstsbstpl3" layoutX="713.0" layoutY="489.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="122.5" text="Button" />
+            <Button fx:id="cnstsbstpl2" layoutX="692.0" layoutY="502.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="40.3" text="Button" />
+            <Button fx:id="cnstsbstpl1" layoutX="672.0" layoutY="515.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-58.6" text="Button" />
+            <Button fx:id="erzusbstpl4" layoutX="735.0" layoutY="452.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="90.0" text="Button" />
+            <Button fx:id="erzusbstpl3" layoutX="736.0" layoutY="491.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="81.3" text="Button" />
+            <Button fx:id="erzusbstpl2" layoutX="748.0" layoutY="524.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="59.7" text="Button" />
+            <Button fx:id="erzusbstpl1" layoutX="772.0" layoutY="552.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="33.7" text="Button" />
+            <Button fx:id="angorerzu1" layoutX="747.0" layoutY="602.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="34.6" text="Button" />
+            <Button fx:id="angorerzu2" layoutX="777.0" layoutY="608.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="-8.1" text="Button" />
+            <Button fx:id="angorerzu3" layoutX="794.0" layoutY="592.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="84.6" text="Button" />
+            <Button fx:id="erzusoch3" layoutX="805.0" layoutY="470.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="98.1" text="Button" />
+            <Button fx:id="erzusoch2" layoutX="800.0" layoutY="505.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="95.7" text="Button" />
+            <Button fx:id="erzusoch1" layoutX="794.0" layoutY="541.0" minHeight="8.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="33.0" rotate="96.6" text="Button" />
+            <Circle fill="#a8a8a8" layoutX="261.0" layoutY="186.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="243.0" layoutY="232.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="123.0" layoutY="35.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="170.0" layoutY="271.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="92.0" layoutY="299.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="213.0" layoutY="315.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="158.0" layoutY="466.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="166.0" layoutY="557.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="73.0" layoutY="547.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="71.0" layoutY="620.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="14.0" layoutY="570.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="285.0" layoutY="461.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="310.0" layoutY="369.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="366.0" layoutY="307.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="317.0" layoutY="263.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="329.0" layoutY="195.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="388.0" layoutY="492.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="381.0" layoutY="401.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="452.0" layoutY="415.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="460.0" layoutY="516.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="419.0" layoutY="620.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="524.0" layoutY="472.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="581.0" layoutY="479.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="564.0" layoutY="592.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="639.0" layoutY="618.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="740.0" layoutY="593.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="633.0" layoutY="415.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="505.0" layoutY="348.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="463.0" layoutY="323.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="415.0" layoutY="208.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="390.0" layoutY="90.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="478.0" layoutY="14.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="583.0" layoutY="42.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="725.0" layoutY="36.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="510.0" layoutY="131.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="648.0" layoutY="175.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="552.0" layoutY="199.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="735.0" layoutY="181.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="682.0" layoutY="252.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="806.0" layoutY="156.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="794.0" layoutY="306.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="828.0" layoutY="356.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="748.0" layoutY="432.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="824.0" layoutY="445.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="807.0" layoutY="570.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a8a8a8" layoutX="675.0" layoutY="540.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+		</children>
+      </Pane>
+   </center>
+</BorderPane>
