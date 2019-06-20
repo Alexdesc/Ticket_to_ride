@@ -1,4 +1,4 @@
-<h6 align="center" style="bold"> Ticket_to_ride </h2>
+<h1 align="center" style="bold"> Ticket_to_ride </h1>
 A computer-based version of popular board game "Ticket to ride".
 <p align="center">
   <img width="460" height="300" src="https://cogsthebrainshop.ie/wp-content/uploads/2015/11/ticket-to-ride-europe-ireland.jpg">
