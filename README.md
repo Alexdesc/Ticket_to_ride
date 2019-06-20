@@ -6,4 +6,8 @@ A computer-based version of popular board game "Ticket to ride".
 To play, import the project on your eclipse environment and build the project.
 Take the .jar File and run it !
 
-Good Game !
+*Good Game !*
+
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
