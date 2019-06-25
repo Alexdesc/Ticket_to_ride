@@ -1,7 +1,7 @@
 <h1 align="center" style="bold,italic"> Ticket_to_ride </h1>
 
 <p align="center">
-  <img width="460" height="300" src="https://www.mindgames.ca/content/images/thumbs/0000556_ticket-to-ride-europe_550.jpeg">
+  <img src="https://cdn.static01.nicematin.com/media/npo/mobile_1440w/2016/03/train-des-pignes.jpg">
 </p>
 
 <p align="center">
