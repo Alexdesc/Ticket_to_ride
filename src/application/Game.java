@@ -24,7 +24,15 @@ public class Game {
 		for(int i = 0; i <= nbJoueurs; i++){
 			playersList.add(new Player(null, i, 0));
 		}
+		trameGame();
+	}
+	
+	public void trameGame(){
 		initPlayer();
+		
+		for(Player p:playersList){
+			
+		}
 	}
 	
 	public void initPlayer(){
