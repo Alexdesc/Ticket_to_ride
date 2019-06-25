@@ -1,4 +1,4 @@
-<h1 align="center" style="bold,italic"> Ticket_to_ride </h1>
+<h1 align="center" style="bold;italic"> Ticket_to_ride </h1>
 
 <p align="center">
   <img src="https://cdn.static01.nicematin.com/media/npo/mobile_1440w/2016/03/train-des-pignes.jpg">
@@ -12,8 +12,8 @@
   To play, import the project on your eclipse environment and build the project. Take the .jar File and run it !
 </p> 
 
-<p align="center">
-  *Good Game !*
+<p align="center" style="italic">
+  Good Game !
 </p> 
 
 <p align="center">
